@@ -26,7 +26,7 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
-                .title("这是一个后端PI文档")
+                .title("这是一个后端API文档")
                 .description("后端管理系统")
                 .termsOfServiceUrl("http://localhost:8080")
                 .version("v1.0")
